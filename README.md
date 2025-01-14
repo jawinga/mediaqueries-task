@@ -86,5 +86,6 @@ I tried using **four conditions** (`max-width`, `min-width`, `max-height`, `min-
 - prefers-reduced-motion for low-budget phones that have limitations.
 - prefer-contrast
 - inverted-colours
+- Other features
 
 **Apply media queries to containers such as Grids.**
