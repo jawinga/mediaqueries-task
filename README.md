@@ -87,4 +87,4 @@ I tried using **four conditions** (`max-width`, `min-width`, `max-height`, `min-
 -prefer-contrast
 -inverted-colours
 
-** Apply media queries to containers such as Grids. **
+**Apply media queries to containers such as Grids.**
