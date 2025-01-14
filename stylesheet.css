@@ -1,0 +1,22 @@
+html {
+  font-size: 28px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
