@@ -1,11 +1,12 @@
-Media Queries Task: ROADMAP\*\*
+# Media Queries Task: ROADMAP
 
-## Step 1: Learning the Basics of Media Queries\*\*
+## Step 1: Learning the Basics of Media Queries
 
-**What are media queries?**  
+### What are media queries?
+
 Media queries allow websites to be **responsive** by applying different CSS rules based on **screen size, device type, or resolution**.
 
-**Key Concepts:**
+### Key Concepts
 
 - `@media` → Activates media queries.
 - `screen` / `all` / `print` / `speech` → Defines the type of media.
@@ -16,48 +17,60 @@ Media queries allow websites to be **responsive** by applying different CSS rule
 
 ---
 
-## **Step 2: Handling Overlapping Styles**
+## Step 2: Handling Overlapping Styles
 
-**Problem:**  
-I tried using **four conditions** (`max-width`, `min-width`, `max-height`, `min-height`) to change the background color.  
-**Challenge Faced:**
+### Problem
+
+I tried using **four conditions** (`max-width`, `min-width`, `max-height`, `min-height`) to change the background color.
+
+### Challenges Faced
 
 - The queries **overlapped**, making the styles unpredictable.
-- The approach was **not scalable** or **readable**.  
-  **Lesson Learned:**
+- The approach was **not scalable** or **readable**.
+
+### Lesson Learned
+
 - **Using too many conditions is inefficient.**
 - **Simplifying the logic** makes it easier to debug and adjust.
 
 ---
 
-## ** Step 3: Using `max-width` for Simplicity**
+## Step 3: Using `max-width` for Simplicity
 
-**Why `max-width`?**
+### Why `max-width`?
 
 - More **readable**, **easier to adjust**, and **scales well**.
 - Works well in **mobile-first** responsive design.
 
-## ** Step 4: Choosing Desktop-First vs. Mobile-First Approach**
+---
 
-**Why Desktop-First (`max-width`)?**
+## Step 4: Choosing Desktop-First vs. Mobile-First Approach
+
+### Why Desktop-First (`max-width`)?
 
 - **Best for desktop-optimized applications**.
 - **Easier for complex layouts** (e.g., dashboards, enterprise tools).
-- **Order goes from biggest to smallest**.
+- **Media queries are ordered from biggest to smallest**.
 
-  **Alternative:** Mobile-First (`min-width`)
+### Alternative: Mobile-First (`min-width`)
 
 - **Best for mobile-first applications**.
 - **Starts from smallest screens and scales up**.
 
-## ** Step 5: Adjusting Font Sizes & Adding Smooth Transitions**
+### Challenges Faced
 
-**Font Size Adjustments**
+- Deciding which approach to choose from.
+
+---
+
+## Step 5: Adjusting Font Sizes & Adding Smooth Transitions
+
+### Font Size Adjustments
 
 - When screens get **smaller**, font size **increases** for readability.
 - **Used `em` instead of `px`** for consistency across devices.
 
-  **Smooth Background Transitions**
+### Smooth Background Transitions
 
 - Instead of **instantly changing colors**, I used:
   ```css
