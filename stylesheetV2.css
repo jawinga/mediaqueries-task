@@ -21,34 +21,12 @@ body {
   padding: 1em;
 }
 
-/* small mobile */
-@media screen and (max-width: 320px) {
+/*fullHD*/
+
+@media screen and (max-width: 1920px) {
   body {
-    background-color: black;
-  }
-}
-
-/*mobile*/
-
-@media screen and (max-width: 480px) {
-  body {
-    background-color: purple;
-  }
-}
-
-/*small tablet*/
-
-@media screen and (max-width: 960px) {
-  body {
-    background-color: blue;
-  }
-}
-
-/*tablet*/
-
-@media screen and (max-width: 1024px) {
-  body {
-    background-color: green;
+    background-color: red;
+    font-size: 1em;
   }
 }
 
@@ -57,13 +35,41 @@ body {
 @media screen and (max-width: 1366px) {
   body {
     background-color: yellow;
+    font-size: 1.2em;
   }
 }
 
-/*fullHD*/
+/*tablet*/
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1026px) {
   body {
-    background-color: red;
+    background-color: green;
+    font-size: 1.4em;
+  }
+}
+
+/*small tablet*/
+
+@media screen and (max-width: 960px) {
+  body {
+    background-color: blue;
+    font-size: 1.6em;
+  }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: purple;
+    font-size: 1.8em;
+  }
+}
+
+/* small mobile */
+@media screen and (max-width: 320px) {
+  body {
+    background-color: black;
+    font-size: 2em;
   }
 }
